@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(26, 128, 245);
+}
+main{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    min-height: auto; 
+    width: 60vw;
+    border-radius: 10px;
+}
+#sectionadicionaritem{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    min-height: 60px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+
+#btadicionar{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    background-color: rgb(26, 128, 245);
+    border: none;
+    border-radius: 3px;
+}
+
+#sectionitens{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#sectionitens ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+    background-color: #eee;
+    padding: 10px; 
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.excluir, .editar {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
